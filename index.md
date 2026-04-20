@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<div class="hero">
+<div class="hero hero-home">
   <h2>Helping Your Child Succeed in the 11+</h2>
   <p>Expert 11+ tuition with a proven 90%+ pass rate</p>
 </div>
