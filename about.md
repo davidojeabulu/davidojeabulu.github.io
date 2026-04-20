@@ -3,14 +3,6 @@ layout: default
 title: About
 ---
 
-<header>
-  <h1><a href="/" class="logo">Tuition Plus</a></h1>
-  <nav>
-    <a href="/">Home</a>
-    <a href="/about.html">About</a>
-  </nav>
-</header>
-
 <div class="hero hero-about">
   <h2>Achieving Examination Success</h2>
 </div>
