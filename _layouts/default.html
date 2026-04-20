@@ -34,6 +34,47 @@
       text-decoration: none;
     }
 
+    .hero-about {
+      background: url('/assets/about-hero.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 6rem 2rem;
+      position: relative;
+    }
+
+    .hero-home {
+      background: url('/assets/home-hero.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 6rem 2rem;
+      position: relative;
+    }
+
+    .hero-home::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.4);
+    }
+    
+    .hero-home h2,
+    .hero-home p {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-about::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.4);
+    }
+    
+    .hero-about h2 {
+      position: relative;
+      z-index: 1;
+    }
+
     nav a {
       color: white;
       text-decoration: none;
