@@ -10,13 +10,6 @@ title: Home
 
 <div class="container">
 
-<section id="about">
-  <h2>About</h2>
-  <div class="card">
-    <p><strong>Tuition Plus</strong> provides specialist 11+ preparation for Bexley, Kent and selective independent schools.</p>
-  </div>
-</section>
-
 <section>
   <h2>Proven Results</h2>
   <div class="card">
