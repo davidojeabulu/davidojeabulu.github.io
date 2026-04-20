@@ -18,7 +18,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 1rem 2rem;
-      background: #0f172a;
+      background: linear-gradient(90deg, #1e3a8a, #2563eb);
       color: white;
       position: sticky;
       top: 0;
@@ -27,6 +27,11 @@
     header h1 {
       font-size: 1.3rem;
       margin: 0;
+    }
+
+    .logo {
+      color: white;
+      text-decoration: none;
     }
 
     nav a {
@@ -95,13 +100,18 @@
     footer h3 {
       margin-top: 0;
     }
+
+    footer a {
+      color: #93c5fd;
+      text-decoration: none;
+    }
   </style>
 </head>
 
 <body>
 
 <header>
-  <h1>{{ site.title }}</h1>
+  <h1><a href="/" class="logo">Tuition Plus</a></h1>
   <nav>
     <a href="/about.html">About</a>
   </nav>
@@ -111,10 +121,18 @@
 
 <footer id="contact">
   <h3>Come and visit us or contact us below:</h3>
+
   <p><strong>Location:</strong><br>234 - 236 Broadway. Bexleyheath. DA6 8AS</p>
-  <p><strong>Email:</strong><br>enquiries@tuitionplus.uk</p>
-  <p><strong>Phone:</strong><br>+44 7852 621245</p>
+
+  <p><strong>Email:</strong><br>
+    <a href="mailto:enquiries@tuitionplus.uk">enquiries@tuitionplus.uk</a>
+  </p>
+
+  <p><strong>Phone:</strong><br>
+    <a href="tel:+447852621245">+44 7852 621245</a>
+  </p>
 </footer>
+  
 
 </body>
 </html>
